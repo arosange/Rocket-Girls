@@ -118,20 +118,17 @@ padding: 5px 30px 5px 60px;
     padding-top: 60px;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    gap: 100px;
-
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
 }
 
 .make-it-happen-content {
-    max-width: 900px;
+    max-width: 548px;
     padding-top: 30px;
     order: 2;
- }
+}
+ 
 
 .make-it-happen-section h3{
     font-family: "Playfair Display", serif;
