@@ -170,8 +170,7 @@ form{
     background-color: green;}
 
 footer {
-   
-    
+    background-color: rgb(0 0 0 / 70%);
     overflow: hidden;
     font-family: "Playfair Display", serif;
     display: block;
