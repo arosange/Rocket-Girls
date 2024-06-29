@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    /*background-color: rgb(226 226 226 / 90%);*/
+    background-color: rgb(0 0 0 / 70%);
+    overflow: hidden;
+    display: flex;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar img{
+padding: 5px 30px 5px 60px;
+
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.left-options{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 41px;
+    
+}
+
+.right-options{
+    padding-right: 100px;
+}
+
+.navbar li a:hover{
+    color: #FF00E4;
+
+}
+
+
+.main-banner{
+    background-color: #FDB9FC;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 130px;
+    background: url(./Assets/girls2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.banner-content{
+    max-width: 700px;
+    margin-left: 70px;
+    padding-left:30px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background-color: black;
+    opacity: 20%;*/
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.main-banner h3{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px ;
+    
+}
+
+.main-banner h1{
+    font-family: "Bree Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    color: #fff;
+    padding-bottom: 10px;
+    line-height: 1.1;
+    letter-spacing: 1.5px ;
+}
+
+form{
+    max-width: 700px;
+    border: 1px solid  grey ;
+    border-radius: 20px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.contact-form label{
+    margin-bottom: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-form input, .contact-form textarea { 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-form button{ 
+    margin: auto;
+    padding: 10px;
+    background-color: #7b7d7e;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+
+}
+
+.contact-form button:hover{
+    background-color: green;}
+
+footer {
+    background-color: rgb(0 0 0 / 70%);
+    
+    overflow: hidden;
+    font-family: "Playfair Display", serif;
+    display: block;
+    padding: 20px 90px 20px 90px;
+
+}
+
+footer a{
+    color: #fff;
+    font-size: x-large;
+}
+
+footer  .email {
+    float: right;
+    padding-top: 10px;
+}
+
+.footer-icon{
+    padding-left: 20px;
+}
