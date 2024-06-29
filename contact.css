@@ -72,6 +72,7 @@ padding: 5px 30px 5px 60px;
     padding-top: 130px;
     background: url(./Assets/girls2.png);
     background-size: cover;
+    background-position-x: right;
     background-repeat: no-repeat;
 
 }
@@ -169,7 +170,7 @@ form{
     background-color: green;}
 
 footer {
-    background-color: rgb(0 0 0 / 70%);
+   
     
     overflow: hidden;
     font-family: "Playfair Display", serif;
